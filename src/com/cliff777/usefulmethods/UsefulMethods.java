@@ -22,7 +22,7 @@ public class UsefulMethods
 	//and gives the difference in seconds
 	public int fromThenToNow(String date) throws ParseException
 	{
-		DateFormat format = new SimpleDateFormat("MM-dd-yyyy h:mm");
+		DateFormat format = new SimpleDateFormat("MM-dd-yyyy hh:mm:ss");
 
 		Date now = new Date();
 		Date then = format.parse(date);
