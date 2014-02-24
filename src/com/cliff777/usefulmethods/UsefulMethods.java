@@ -7,17 +7,7 @@ import java.util.Date;
 
 public class UsefulMethods 
 {
-
-	public static void main(String[] args)
-	{
-		new UsefulMethods();
-	}
-
-	public UsefulMethods()
-	{
-		//test
-	}
-
+	
 	//compares a date in string form to the current date
 	//and gives the difference in seconds
 	public int fromThenToNow(String date) throws ParseException
@@ -31,5 +21,17 @@ public class UsefulMethods
 
 		return (int) (difference/1000);
 	}
+
+	public static void main(String[] args)
+	{
+		new UsefulMethods();
+	}
+
+	public UsefulMethods()
+	{
+		//test
+	}
+
+	
 
 }
