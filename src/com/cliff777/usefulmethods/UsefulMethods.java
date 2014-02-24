@@ -15,7 +15,7 @@ public class UsefulMethods
 
 	public UsefulMethods()
 	{
-
+		//test
 	}
 
 	//compares a date in string form to the current date
