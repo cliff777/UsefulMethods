@@ -7,16 +7,18 @@ import java.util.Date;
 
 public class UsefulMethods 
 {
+	
+	public UsefulMethods()
+	{
+		//test
+	}
 
 	public static void main(String[] args)
 	{
 		new UsefulMethods();
 	}
 
-	public UsefulMethods()
-	{
-		//test
-	}
+	
 
 	//compares a date in string form to the current date
 	//and gives the difference in seconds
