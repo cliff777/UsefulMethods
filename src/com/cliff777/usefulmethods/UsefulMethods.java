@@ -8,14 +8,14 @@ import java.util.Date;
 public class UsefulMethods 
 {
 	
-	public static void main(String[] args)
+	public static void main(String[] args) throws Exception
 	{
 		new UsefulMethods();
 	}
 	
-	public UsefulMethods()
+	public UsefulMethods() throws Exception
 	{
-		
+		System.out.println(fromThenToNow("03-03-2014 09:05:00"));
 	}
 
 	//compares a date in string form to the current date
